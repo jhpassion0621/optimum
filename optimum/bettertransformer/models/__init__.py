@@ -83,6 +83,7 @@ class BetterTransformerManager:
         },
         "markuplm": {"MarkupLMLayer": BertLayerBetterTransformer},
         "mbart": {"MBartEncoderLayer": MBartEncoderLayerBetterTransformer},
+        "mt5": {"T5Attention": T5AttentionLayerBetterTransformer},
         "opt": {"OPTAttention": OPTAttentionLayerBetterTransformer},
         "pegasus": {"PegasusAttention": PegasusAttentionLayerBetterTransformer},
         "rembert": {"RemBertLayer": BertLayerBetterTransformer},
