@@ -258,6 +258,7 @@ class ORTOptimizerForSeq2SeqLMIntegrationTest(ORTOptimizerTestMixin):
         "mt5",
         "pegasus",
         "t5",
+        "umt5"
     ]
 
     FULL_GRID = {
