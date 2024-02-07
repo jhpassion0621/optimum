@@ -3546,6 +3546,7 @@ class ORTModelForSeq2SeqLMIntegrationTest(ORTModelTestMixin):
         "mt5",
         "pegasus",
         "t5",
+        "umt5"
     ]
 
     FULL_GRID = {

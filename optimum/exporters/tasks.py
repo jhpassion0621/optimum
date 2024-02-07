@@ -975,6 +975,13 @@ class TasksManager:
             "image-to-text-with-past",
             onnx="TrOCROnnxConfig",
         ),
+        "umt5": supported_tasks_mapping(
+            "feature-extraction",
+            "feature-extraction-with-past",
+            "text2text-generation",
+            "text2text-generation-with-past",
+            onnx="UMT5OnnxConfig",
+        ),
         "unispeech": supported_tasks_mapping(
             "feature-extraction",
             "automatic-speech-recognition",

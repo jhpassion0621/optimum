@@ -458,6 +458,8 @@ class T5OnnxConfig(TextSeq2SeqOnnxConfig):
 class MT5OnnxConfig(T5OnnxConfig):
     ATOL_FOR_VALIDATION = 1e-4
 
+class UMT5OnnxConfig(MT5OnnxConfig):
+    pass
 
 class LongT5OnnxConfig(T5OnnxConfig):
     DEFAULT_ONNX_OPSET = 14

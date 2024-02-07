@@ -123,6 +123,7 @@ class ORTConfigManager:
         "mbart": "bart",
         "mistral": "gpt2",
         "mt5": "bart",
+        "umt5": "bart",
         "m2m-100": "bart",
         "nystromformer": "bert",
         "pegasus": "bert",
